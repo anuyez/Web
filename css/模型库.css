@@ -1,0 +1,166 @@
+body,h4,p,ul{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 7vh;
+}
+#header img{
+    width: 60px;
+    height: 40px;
+    margin-left:15%;
+}
+
+#header .a{
+    margin-left: 120px;
+ }
+ #header .a #a2{
+     color: #0072DC;
+ }
+ #header .a #a2,#a3{
+     margin-left: 45px;
+ }
+ #header .a #a1,#a3{
+    color: #000;
+}
+
+
+#header .search{
+    width: 240.8px;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+#header .search input{
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 180px;
+    height: 35px;
+    border: 2px solid #ccc;
+    border-right: none;
+}
+#header .search button{
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 40px;
+    height: 38.2px;
+    border: none;
+    background: #2688FB;
+    display: flex;
+    align-items: center;
+}
+#header .search button img{
+    width: 22px;
+    height: 22px;
+    margin: auto;
+}
+input[type="text"]:focus {
+    outline: none; /* 隐藏在元素获得焦点时显示的轮廓*/
+}
+
+#header .a-button{
+    display: block;
+    margin-right: 15%;
+}
+#header .a-button button{
+    width:100px;
+    height: 40px;
+    background: #2688FB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+#div1{
+    width: 100%;
+    height: 200vh; 
+}
+
+#div1 .a{
+    width: 500px;
+    height: 21.6px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+#div1 .a a{
+    font-size: 14px;
+    color:#828282;
+    float: left;
+}
+#div1 .a .a0{
+    margin-right: 50px;
+}
+#div1 .a .a1{
+    color:#0072DC;
+}
+#div1 .a .a2,.a3{
+    margin-left: 20px;
+}
+
+#div1 .select select{
+    width: 130px;
+    height: 32px;
+    margin-left: 40px;
+    margin-top: 60px;
+    font-size: 16px;
+    text-align: center;
+    color: #4F4F4F;
+    border: 1px solid #828282;
+    border-radius: 20px;
+}
+select:focus {
+    outline: none; /* 隐藏在元素获得焦点时显示的轮廓*/
+}
+
+#div1 ul{
+    list-style: none;
+    width: 95%;
+    height: 165vh;
+    /* background: skyblue; */
+    margin: auto;
+    margin-top: 30px;
+ }
+ #div1 ul li{
+    width: 19.089%;
+    height:25vh;
+    border: 1px solid #ccc;
+    background: white;
+    margin-left: 1%;
+    margin-top: 1%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div1 ul .li-first{
+    margin-left: 0;
+}
+
+#footer{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(31, 35, 44);
+}

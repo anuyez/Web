@@ -1,0 +1,110 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: "微软雅黑";
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+.username, .password,.captcha,.loginPassword, .button {
+    width: 100%;
+    max-width: 400px; /* 或者其他你希望的最大宽度 */
+}
+
+.username,.password,.captcha,.loginPassword{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.username img{
+    width: 35px;
+    height: 30px;
+    margin-left: -1px;
+}
+
+.password img,.loginPassword img {
+    width: 30px;
+    height: 30px;
+ }
+ .captcha img{
+    width: 40px;
+    height: 30px;
+    margin-left: -3px;
+ }
+input[type="text"], input[type="password"] {
+        width: 280px;
+        height: 40px;
+        border: none;
+        font-size: 14px;
+        box-sizing: border-box; /* 包含边框和内边距在内的宽高计算 */
+}
+
+input[type="text"]:focus,input[type="password"]:focus {
+    outline: none;
+}
+
+.username input[type="text"]{
+    padding-left: 14px;
+}
+.captcha input[type="text"]{
+    padding-left: 12px;
+}
+input[type="password"]{
+    padding-left: 15px;
+}
+
+.captcha a{
+    text-decoration: none;
+    color: grey;
+}
+.underline {
+    border: 1px solid #e6e6e6;
+    width: 100%;
+    position: absolute;
+    margin-top: 60px;
+}
+
+.remember{
+    margin-left: -170px;
+    margin-top: 25px;
+    color: gray;
+    font-size: 13px;
+}
+
+.remember input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.remember label {
+    vertical-align: middle; /* 保证标签文本垂直居中 */
+}
+
+.button{
+    margin-top: 50px;
+    width: 400px;
+    height: 50px;
+    color: #ffffff;
+    background: #2688FB;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+

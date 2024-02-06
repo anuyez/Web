@@ -1,0 +1,63 @@
+body{
+    padding: 0;margin: 0;
+    font-family: "微软雅黑";
+}
+
+img{display: block;}
+input{outline: none;}
+
+.background{
+    /* 设置背景图片 */
+    background-image: url('../imgs/登录页/bg.png');
+     
+    /* 背景图片覆盖整个容器 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-repeat: no-repeat; /* 不重复背景图片 */
+    background-size: cover; /* 背景图片覆盖整个容器，保持图片比例 */
+    
+    /* 确保容器能填满整个屏幕 */
+    width: 100%;
+    position: relative;
+ }
+
+ .iframe{
+    width: 500px;
+    height: 650px;
+    background: white;
+    position: absolute;
+    border-radius: 25px;
+    margin-left:auto;
+    right: 90px;
+    text-align: center;
+ }
+
+ .iframe iframe{
+    width:500px;
+    height:500px;
+    border-radius: 25px;
+    margin-top: 15px;
+ }
+
+ .a{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;/*去除下划线*/
+    color: black;
+}
+
+.a2{
+    padding-left: 70px;
+    color: gray;
+}
+
+
+
+
+

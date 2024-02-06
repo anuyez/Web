@@ -1,0 +1,17 @@
+/* ====================第一步：清样式 清间距============ */
+body,h1,h2,h3,h4,h5,h6,p,a,img,ul,li,ol,dl,dt,dd,input,form,fieldset,legend{padding: 0;margin: 0;}
+ul,ol{list-style: none;}
+img{display: block;}
+input{outline: none;}
+
+/* =================第二步：定义文本三属性=================== */
+body{font-size: 12px; color: #3e3e3e; font-family: "微软雅黑";}
+
+/* =====================第三步：定义超链接样式================= */
+a{text-decoration: none;color: #000;}
+a:hover{text-decoration: underline; color: #f60;}
+
+/* =====================定义公共样式====================== */
+.w{width: 900px; margin: 0 auto;}
+.l{float: left;}
+.r{float: right;}

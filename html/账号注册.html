@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>账号注册</title>
+    <link rel="stylesheet" href="../css/账号注册.css">
+</head>
+<body>  
+    <form class="login" action="登录页.html" method="post" target="_blank">
+        <div class="username">
+            <img src="../imgs/登录页/手机号 .png" alt="">
+            <input type="text" id="username" name="username" placeholder="请输入手机号码" required>
+            <hr class="underline">
+        </div>
+
+        <div class="captcha">
+            <img src="../imgs/登录页/验证码 .png" alt="">
+            <input type="text" id="captcha" name="captcha" placeholder="请输入验证码" required><a href="">获取验证码</a>
+            <hr class="underline">
+        </div>
+            
+        <div class="password">
+            <img src="../imgs/登录页/密码 .png" alt="">
+            <input type="password" name="password" placeholder="请输入登录密码" width="400px" height="40px" required>
+            <hr class="underline">
+        </div>
+
+        <div class="loginPassword">
+            <img src="../imgs/登录页/密码 .png" alt="">
+            <input type="password" name="loginPassword" placeholder="请确认登录密码" width="400px" height="40px" required>
+            <hr class="underline">
+        </div>
+            
+        <div class="remember">
+            <input type="checkbox" name="remember" >
+            <label for="remember">我同意《用户协议》和《隐私协议》</label>
+        </div>
+        <button class="button" type="submit">账号注册</button>
+    </form>
+</body>
+</html>

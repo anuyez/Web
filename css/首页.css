@@ -1,0 +1,133 @@
+body,ul{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+
+a{text-decoration: none;}
+
+button:hover {
+    cursor: pointer;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 7vh;
+    background: white;
+}
+#header img{
+    width: 60px;
+    height: 40px;
+    margin-left:20%;
+}
+#header .a{
+    margin-right: 5%;
+}
+#header .a .a1{
+    color: #0072DC;
+}
+#header .a .a2{
+    color: #000;
+    margin-left: 30px;
+}
+
+#header .a-button{
+    display: block;
+    margin-right: 20%;
+}
+#header .a-button button{
+    width:100px;
+    height: 40px;
+    background: #2688FB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+#div1{
+    background-image: url('../imgs/首页/div-1.png');
+    width: 100%;
+    height: 93vh;
+    background-repeat: no-repeat;
+    background-size: cover; /* 背景图片覆盖整个容器，保持图片比例 */
+    position: relative;
+}
+
+
+#div2{
+    width: 100%;
+    height: 100vh;
+    background: #999999;
+}
+
+
+#div3{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(49, 52, 63);
+    text-align: center;
+}
+#div3 h3{
+    margin: 0;
+    color: white;
+    padding-top: 50px;
+}
+#div3 ul{
+   list-style: none;
+   width: 100%;
+   height: 62vh;
+   margin-top: 60px;
+   
+}
+#div3 ul li{
+    width: 20%;
+    height:22vh;
+    background: white;
+    margin-left: 4%;
+    margin-top: 3%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div3 ul li img{
+    width: 50%;
+    height: 20vh;
+}
+
+#div3 a button{
+    width: 140px;
+    height: 40px;
+    margin: auto;
+    margin-top: 40px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div3 a img{
+    width:30px;
+    height:30px;
+    float: left;
+    margin: auto;
+    margin: 0;
+    padding-right: 10px;
+}
+#div3 a button p{
+   color: #0983F4;
+   text-align: center;
+}
+
+
+
+#footer{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(31, 35, 44);
+}
